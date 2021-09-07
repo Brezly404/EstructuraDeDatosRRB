@@ -29,19 +29,17 @@ public class NxM_int_2 {
         
         int matriz[][] = new int[n][m];
         
-        for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz.length; j++) {
+        for (int i = 0; i < n; i++) {
+            
+            //System.out.println("matriz"+" valor"+i); muestra el recorrido del arreglo [i]
+            
+            for (int j = 0; j < m; j++) {
                 
                 
                 matriz[i][j] = rd.nextInt(100);
-                
-                if (n>=m) {
-                    
-                    matriz[i][j]=rd.nextInt(100);
-                    
-                }else{
-                    matriz[i][j]=rd.nextInt(100);
-                }
+               
+                //System.out.println("matriz"+matriz[i][j]+" valor"+j);
+                //estos sout muestran el recorrido de la matriz para visualizar el recorrido de el arreglo [i][j]
                 
             }
             
@@ -50,8 +48,8 @@ public class NxM_int_2 {
         System.out.println("La matriz "+n+" x "+m+" es la siguiente: ");
         
         String trys = "";
-        for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz.length; j++) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
                 
                 trys= trys+"| "+matriz[i][j];
                 
