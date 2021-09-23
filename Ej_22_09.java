@@ -77,7 +77,7 @@ public class Ej_22_09 {
                                 conteo--;
                             }
                         }
-                        System.out.println(pila[i] + " se repite " + conteo + " veces ");
+                        System.out.println(pila[i] + " se encuentra " + conteo + " veces ");
 
                     }
 
