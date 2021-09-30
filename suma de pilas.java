@@ -98,7 +98,7 @@ class terror {
 
                 case 5:
                     int suma = 0;
-                    for (int i = 0; i < 2 ; i++) {
+                    for (int i = 0; i < a && i < b ; i++) {
                         suma = pilaA[i] + pilaB[i];
                         extracted(pilaC, suma, i);
                         System.out.println("\n"+ suma);
