@@ -58,7 +58,7 @@ public class Modificacion_nod {
                     
                 case 2:
 
-                    if (top != null) {
+                    if (top == null) {
 
                         System.out.println("La lista esta vacia");
                     } else {
