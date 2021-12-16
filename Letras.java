@@ -17,7 +17,7 @@ public class Letras {
 
         Random r = new Random();
 
-        for (int i = 0; i <= 5; i++) {
+        for (int i = 0; i <= 500; i++) {
 
             Nodo temp = new Nodo();
             
