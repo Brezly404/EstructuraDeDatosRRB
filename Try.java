@@ -104,8 +104,8 @@ public class Try {
         for (int tr = 1; tr <= 500; tr++) {
 
             Nodo anterior = new Nodo();
-            anterior = inicio;
             Nodo actual = new Nodo();
+            anterior = inicio;
             actual = anterior.art;
 
             if (inicio != null) {
@@ -147,10 +147,6 @@ public class Try {
     public void faltante(){
 
         Nodo fat = new Nodo();
-
-        do {
-            agregar();
-        } while (fat.num = true);
 
     }
 
