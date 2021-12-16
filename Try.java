@@ -71,11 +71,9 @@ public class Try {
             for (int a = 0; a <= 500; a++) {
 
                 Nodo anterior = new Nodo();
-
-                anterior = inicio;
-
                 Nodo actual = new Nodo();
-
+                
+                anterior = inicio;
                 actual = anterior.art;
 
                 while (anterior.art != null) {
